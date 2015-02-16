@@ -1,0 +1,3 @@
+DROP INDEX lat_long ON ItemGeo;
+
+DROP TABLE IF EXISTS ItemGeo;

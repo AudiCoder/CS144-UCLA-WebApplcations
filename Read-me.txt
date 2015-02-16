@@ -1,0 +1,19 @@
+This Project is on an online bidding system similar to eBay (Winter 2014). The project consisted of the following parts:
+
+1) System setup: this part involved setting up virtual, installing and testing the required soft-wares like java, mysql and lucene
+
+2) Data extraction: this part involved using JAVA API for XML Processing (JAXP) to extract bidding data from a given source. 
+The data contained product information and user information. This part also included developing sql schema for the destination database and
+writing data transformation program to load the extracted information into the destination database.
+
+3) Keyword search support: this part involved deciding on appropriate indexes to create, to support efficient search, creating lucene indexes
+to enable keyword search and integration of search based on lucene index with mysql queries.
+
+4) Webservice development: this part involves developing web services over the keyword search and mysql query search developed in the backend.
+The webservices were developed using Axis2 and deployed on tomcat.
+
+5) Website development:this part involves developing a website that consumes data from these web services.
+I will also integrate google maps to show location of each product. The website developed was made responsive and optimized for use of a mobile device.
+
+
+Details of each project is included in each subfolder
